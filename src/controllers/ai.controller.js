@@ -4,6 +4,8 @@ const aiService = require('../services/ai.service')
 
 module.exports.getReview = async (req, res)=>{
 
+    console.log("done")
+
     const code = req.body.code;
 
     if(!code){
